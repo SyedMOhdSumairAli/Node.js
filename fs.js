@@ -4,6 +4,6 @@ const fs = require('fs');
 // })
 // const a = fs.readFileSync('file.txt')
 // console.log(a.toString())
-fs.writeFile('file2.hmtl', 'hello world',()=> {
+fs.writeFile('file2.html', 'hello world',()=> {
     console.log("file have")
 })
